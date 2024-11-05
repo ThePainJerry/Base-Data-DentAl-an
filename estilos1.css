@@ -1,0 +1,371 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+/*cabecera*/
+header{
+    background-color: rgb(54, 155, 209);
+}
+
+header img{
+    height: 9vh;
+    width: 15dvh;
+    margin: 1% 5%;
+}
+
+/*Apartado de cliente*/
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.primeraSeccion{
+    background-color: rgb(70, 170, 224);
+    display: flex;
+    justify-content: space-evenly;
+    height: 70vh;
+}
+
+.centrarSeccion{
+    width: 55%;
+    font-size:3vh;
+    font-family:sans-serif;
+    color: aliceblue;
+    text-align:start;
+}
+
+.centrarSeccion li{
+    margin: 5%;
+    padding: 1%;
+}
+
+.centrarSeccion ul{
+    list-style: none;
+    padding: 5%;
+}
+
+.botonCliente{
+    background-color: aliceblue;
+    padding: 2vh 10dvh;
+    border-radius: 150vh;
+    text-decoration: none;
+    color: rgb(70, 170, 224);
+}
+
+a.botonCliente:hover{
+    background-color: rgb(218, 217, 217);
+}
+
+.dentista{
+    height: 100%;
+}
+
+/*Apartado bienvenida*/
+.bienvenida{
+    height: 70vh;
+    padding: 8vh
+}
+
+.centrarBienvenida div{
+    text-align: center;
+    margin: 0 15%;
+    font-size: 3vh;
+}
+
+.linea{
+    background-color:rgb(70, 170, 224);
+    display: flex;
+    padding:.3%;
+    width: 7%;
+    margin-top:3vh;
+    border-radius: 5px;
+}
+
+.botonBienvenida{
+    display: flex;
+    justify-content: center;
+    margin: 2% 40%;
+    padding: 1%;
+    background-color: rgb(85, 197, 241);
+    font-size: 3vh;
+    text-decoration: none;
+    border-radius: 100vh;
+    color:hsl(208, 100%, 97%,.8);
+}
+
+a.botonBienvenida:hover {
+    background-color: rgb(22, 107, 211);
+}
+
+/*Servicios que ofrece el doctor*/
+.servicios div{
+    display: flex;
+    justify-content: space-around;
+    height: 50vh;
+}
+
+.serviciosCentro{
+    background-color:rgb(54, 155, 209);
+    width: 50%;
+
+}
+
+.servicios img{
+    width: 100%;
+    height: 100%;
+}
+
+.serviciosCentro ul{
+    list-style: none;
+    padding: 0;
+    margin: 5vh;
+    font-size: 3vh;
+    color:aliceblue;
+    text-align: center;
+}
+
+.serviciosCentro ul li{
+    margin:4vh
+}
+
+.botonServicios{
+    background-color: aliceblue;
+    padding: 2% 5%;
+    text-decoration: none;
+    color: black;
+    border-radius: 100vh;
+}
+
+a.botonServicios:hover{
+    background-color: rgb(255, 255, 255);
+}
+
+/*Parte servicios 2*/
+.servicios2{
+    padding: 0;
+    margin: 0;
+    height: 130vh;
+}
+
+.dentistaAnimado{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.alturaDentista{
+    height: 134vh;
+    display: flex;
+    align-items: center;
+}
+
+
+.centrarCuadroServicios{
+    display: flex;
+}
+
+.centrarCuadros{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    height: 100%;
+}
+
+.tarjeta{
+    border:1px solid black;
+    width: 70%;
+    padding: 0 5dvh;
+    height: 35vh;
+    margin: 20% 5%; 
+    border-radius: 1vh;
+    background-color: rgb(18, 168, 168);
+}
+
+.contendorImg{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    bottom: 5vh;
+}
+
+.imgTarjeta{
+    height: 12vh;
+    border-radius: 100vh;
+    background-color: rgb(174, 249, 249);
+    
+}
+
+.textoTarjeta{
+    padding: 0 5%;
+    font-size: 2vh;
+    text-align: justify;
+}
+
+.tituloTarjeta{
+    font-size: 3vh;
+    height: 0;
+    margin: 0 0 15%;
+}
+
+.centrarParrafo{
+    position: relative;
+    bottom: 7vh;
+}
+
+.lineaTarjeta{
+    border:1px solid black;
+}
+
+.columnasServicios{
+    width: 80%;
+}
+
+
+
+
+/*Clases que utlizo mas de una vez*/
+
+.justificar{
+    text-align: justify;
+}
+
+.centrarTitulo{
+    text-align: center;
+    font-size: 6vh;
+    padding: 5vh 0 0;
+    margin: 0;
+}
+
+.centrarTexto{
+    font-size: 3vh;
+    text-align: center;
+}
+
+/*Apartado recomendaciones*/
+.recomendaciones{
+    margin: 0;
+    padding: 0;
+    height: 40vh;
+    background-color: aqua;
+}
+
+.centrarRecomendaciones{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+    text-align: justify;
+}
+
+.cuadro1{
+    background-color: rgb(21, 135, 191);
+    width: 25%;
+
+}
+
+.cuadro2{
+    background-color: rgb(54, 155, 209);
+    width: 25%;
+}
+
+.cuadro3{
+    background-color: rgb(77, 178, 232);
+    width: 25%;
+}
+
+.cuadro4{
+    background-color: rgb(126, 198, 237);
+    width: 25%;
+}
+
+.tituloRecomendaciones{
+    text-align: center;
+    font-size: 4vh;
+    margin: 7% 7% 2%;
+    color:aliceblue;
+}
+
+.textoRecomendaciones{
+    padding: 3vh;
+    height: 25vh;
+    font-size: 2.5vh;
+    margin:  0 5%;
+    color:aliceblue
+}
+
+
+/*Seccion primera cita*/
+.fondoConsulta{
+    height: 60vh;
+}
+
+.centrarConsulta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    margin: 2%;
+}
+
+.centrarConsulta div{
+    margin: 1%;
+}
+
+.imagenPasos{
+    height: 15vh;
+    width: 100%;
+}
+
+.textoConsulta{
+    width: 50%;
+    font-size: 2.5vh;
+}
+
+.colorAzul{
+    color: rgb(0, 140, 255);
+}
+
+.tituloConsulta{
+    font-size: 5vh;
+    padding: 0;
+}
+
+/*Pie de pagina*/
+footer{
+    background-color: rgb(54, 155, 209);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 20vh;
+    font-size: 2vh;
+    padding: 0;
+    margin: 0;
+    color: aliceblue;
+}
+
+.imgContacto{
+    height: 8vh;
+    margin: 10px
+}
+
+.contenedorContacto{
+    display: flex;
+    height: 10vh;
+}
+
+.contenedorContacto ul{
+    list-style: none;
+    padding: 0;
+}
+
+.contenedorImgContacto{
+    background-color: rgba(127, 229, 255, 0.683);
+    height: 10vh;
+    border-radius: 1vh;
+}
+
+.textoContacto{
+    width: 30dvh;
+    padding: 0 5%;
+}
